@@ -1,35 +1,12 @@
-This is my first attempt at TDD with the Airport challenge.
-I tried to approach every test one by one, understanding what each class would do or
-could do. I started everything on paper at first.
+Airport_challenge - Guillaume 's feedback.
+===========
+This is my first attempt at TDD by myself with the Airport challenge.
+I tried to approach every test one by one, understanding what each class would do or could do, starting with writing everything on paper.
 
-Then I started to work on the plane itself, testing every option I can think of and 
-committing each time a test was passing. I've added a few extra tests which I thought
-could be useful in the process.
+I then started coding at unit test level with the plane class.
+In the end, I had 16 test passing and 1 pending(the grand finale test).
 
-in reverse order, I had all of the following commits working:
-- plane cannot land when its stormy
-- plane cannot take off when stormy
-- Introduction and test of weather method
-- a plane cannot land if the airport is full
-- airport can be full
-- airport capacities
-- a plane can take off
-- a plabe can land in the airport
-- Plane cannot land if already on the ground
-- Plane cannot take off if already flying
-- plane status updated and plane status is flying after take off
-- plane can take off when landed
-- plane has a flying status when in the air
-- a plane flies when created
-- updated the README file
-
-making it 16 examples, 0 failures and 1 pending test (Grand finale).
-It's also "rubocop-happy".
-
-I didn't finish the challenge and need to go back into the tutorial and also the Makers Videos on TDD. I'm not completely happy of the syntax either and may make a few things
-too complicated so would be keen for the teachers at Makers to give me a bit of advice on
-how to carry on, what to change, and some first thoughts on my style, and what I need to
-improve. I plan to review and discuss all of that tomorrow.
+I didn't finish the challenge at this point and plans to redo it from scratch soon, which is also the occasion to see how I progressed and if I can also be quicker while doing it.
 
 Airport Challenge
 =================
@@ -41,13 +18,6 @@ Instructions
 * Feel free to use google, your notes, books, etc but work on your own
 * If you have a partial solution, still check in a partial solution
 * You must submit a pull request to this repo with your code by 9am Monday morning
-
-Steps
--------
-
-1. Fill out your learning plan self review for the week: https://github.com/makersacademy/learning_plan (start by forking this repo, then edit week 1 - you can edit directly on Github)
-2. Fork this repo, and clone to your local machine
-3. Complete the following task:
 
 Task
 -----
@@ -87,9 +57,5 @@ The submission will be judged on the following criteria:
 * Tests pass
 * Tests coverage is good
 * The code is elegant: every class has a clear responsibility, methods are short etc.
-
-Note that is a practice 'Tech Test' of the kinds that employers use to screen developer applicants.  More detailed submission requirements/guidelines are in [CONTRIBUTING.md](CONTRIBUTING.md)
-
-Finally, don’t overcomplicate things. This task isn’t as hard as it may seem at first. 
 
 * Finally submit a pull request before Monday at 9am with your solution or partial solution.  However much or little amount of code you wrote please please please submit a pull request before Monday at 9am
