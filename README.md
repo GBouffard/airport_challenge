@@ -1,12 +1,11 @@
 Airport_challenge - Guillaume 's feedback.
 ===========
-This is my first attempt at TDD by myself with the Airport challenge.
-I tried to approach every test one by one, understanding what each class would do or could do, starting with writing everything on paper.
+This is my first attempt at TDD by myself with the Airport challenge (week 1 at Makers Academy). I tried to approach every test one by one, understanding what each class would do or could do, starting with writing everything on paper.
 
 I then started coding at unit test level with the plane class.
 In the end, I had 16 test passing and 1 pending(the grand finale test).
 
-I didn't finish the challenge at this point and plans to redo it from scratch soon, which is also the occasion to see how I progressed and if I can also be quicker while doing it.
+I didn't finish the challenge at this point and plan to redo it from scratch soon, which is also the occasion to see how I progressed and if I can also be quicker while doing it.
 
 Airport Challenge
 =================
